@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Interactive To-Do List</h1>
+            <p>Stay organized and productive!</p>
+        </header>
+        <main>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Enter a new task..." required>
+                <button type="submit" id="add-btn">Add Task</button>
+            </form>
+            <div class="task-list" id="task-list">
+                <!-- Tasks will be added here dynamically -->
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Interactive To-Do App</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
